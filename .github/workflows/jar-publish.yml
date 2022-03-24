@@ -26,9 +26,11 @@ jobs:
         server-id: github # Value of the distributionManagement/repository/id field of the pom.xml
         settings-path: ${{ github.workspace }} # location for the settings.xml file
   
-    - name: 'Assemble JAR' #Invoke gradle presintalled in the VM
-      run: |
-        ./gradlew assemble
+    - name: Setup Gradle
+      uses: gradle/gradle-build-action@v2
+    
+    - name: Execute Gradle build
+      run: ./gradlew build
         
     - name: 'Get Version Number' # grabbing app version
       run: |
