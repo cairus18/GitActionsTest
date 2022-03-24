@@ -35,5 +35,5 @@ jobs:
     - name: 'Publish JAR'
       uses: actions/upload-artifact@v2-preview
       with:
-        name: ‘calibrator4test.jar'
-        path: output/
+        name: calibrator4test.jar
+        path: java/com/softwareonpurpose/calibrator4test
