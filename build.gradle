@@ -9,17 +9,22 @@ publishing {
             name = "GitHubPackages"
             url = uri("https://maven.pkg.github.com/cairus18/calibrator4test")
             credentials {
-                username = System.getenv("cairus18")
-                password = System.getenv("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")
+                username project.storedUsername
+                password project.storedPassword
             }
         }
     }
     publications {
         gpr(MavenPublication) {
+            artifactId='calibrator4test'
             from(components.java)
         }
     }
 }
+
+group='com.softwareonpurpose'
+
+version='1.5.4'
 
 repositories { mavenCentral() }
 

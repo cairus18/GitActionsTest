@@ -1,16 +1,16 @@
 {
   "formatVersion": "1.1",
   "component": {
-    "group": "",
-    "module": "GitActionsTest",
-    "version": "unspecified",
+    "group": "com.softwareonpurpose",
+    "module": "calibrator4test",
+    "version": "1.5.4",
     "attributes": {
       "org.gradle.status": "release"
     }
   },
   "createdBy": {
     "gradle": {
-      "version": "7.3.3"
+      "version": "7.3"
     }
   },
   "variants": [
@@ -25,13 +25,13 @@
       },
       "files": [
         {
-          "name": "GitActionsTest-unspecified.jar",
-          "url": "GitActionsTest-unspecified.jar",
+          "name": "calibrator4test-1.5.4.jar",
+          "url": "calibrator4test-1.5.4.jar",
           "size": 7352,
-          "sha512": "12667c5758275bbe914e286aeefbe7e8bb2e182e36d4fd59e23a8e8020331f56ca92d49e814f817bddb0e1495484ce44bfda9a88e13e7fe3d105d232d8db519b",
-          "sha256": "67c6f91eb69e061f7cdb6ea68920bef07cb80ce24272759a87a33d969aa7a79e",
-          "sha1": "af7d310783afba90dc97b9f9f48dc175b140bf83",
-          "md5": "ea89155372b03bc1c3a1d05e12212f6c"
+          "sha512": "b4df1d5184596a3a6b1a78d4b42f9517ab52a496b548c048775b7a005b9106cb53e3788eccda2df860fff4a8459f4b665dab7153b394f3acf5c7bb71eaff32ec",
+          "sha256": "5563488b5f2b4fc88453d6c272cc7c17a06b4fb40cbc770726efd48c662e3495",
+          "sha1": "d5f28841d7ebda94f04af2776d633e9ef578db21",
+          "md5": "811faf0350a302b406e3a0a011b3a2c7"
         }
       ]
     },
@@ -62,13 +62,13 @@
       ],
       "files": [
         {
-          "name": "GitActionsTest-unspecified.jar",
-          "url": "GitActionsTest-unspecified.jar",
+          "name": "calibrator4test-1.5.4.jar",
+          "url": "calibrator4test-1.5.4.jar",
           "size": 7352,
-          "sha512": "12667c5758275bbe914e286aeefbe7e8bb2e182e36d4fd59e23a8e8020331f56ca92d49e814f817bddb0e1495484ce44bfda9a88e13e7fe3d105d232d8db519b",
-          "sha256": "67c6f91eb69e061f7cdb6ea68920bef07cb80ce24272759a87a33d969aa7a79e",
-          "sha1": "af7d310783afba90dc97b9f9f48dc175b140bf83",
-          "md5": "ea89155372b03bc1c3a1d05e12212f6c"
+          "sha512": "b4df1d5184596a3a6b1a78d4b42f9517ab52a496b548c048775b7a005b9106cb53e3788eccda2df860fff4a8459f4b665dab7153b394f3acf5c7bb71eaff32ec",
+          "sha256": "5563488b5f2b4fc88453d6c272cc7c17a06b4fb40cbc770726efd48c662e3495",
+          "sha1": "d5f28841d7ebda94f04af2776d633e9ef578db21",
+          "md5": "811faf0350a302b406e3a0a011b3a2c7"
         }
       ]
     }
