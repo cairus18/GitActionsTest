@@ -39,6 +39,6 @@ jobs:
     - name: 'Publish JAR'
       uses: actions/upload-artifact@v2-preview
       with:
-        name: ‘indentmanager${{env.VERSION}}.jar'
+        name: ‘indentmanager.jar'
         path: output/*-all.jar
 
