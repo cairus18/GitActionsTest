@@ -36,4 +36,4 @@ jobs:
       uses: actions/upload-artifact@v2-preview
       with:
         name: ‘calibrator4test.jar'
-
+        path: output/
