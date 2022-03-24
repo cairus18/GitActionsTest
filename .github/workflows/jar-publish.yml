@@ -1,0 +1,42 @@
+# This workflow uses actions that are not certified by GitHub.
+# They are provided by a third-party and are governed by
+# separate terms of service, privacy policy, and support
+# documentation.
+# This workflow will build a package using Gradle and then publish it to GitHub packages when a release is created
+# For more information see: https://github.com/actions/setup-java/blob/main/docs/advanced-usage.md#Publishing-using-gradle
+
+name: Gradle Package
+
+on:
+  release:
+    types: [created]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2 #Checkout a fresh copy of our repo
+    - name: Set up JDK 11 # Setup java
+      uses: actions/setup-java@v2
+      with:
+        java-version: '11'
+        distribution: 'temurin'
+        server-id: github # Value of the distributionManagement/repository/id field of the pom.xml
+        settings-path: ${{ github.workspace }} # location for the settings.xml file
+  
+    - name: 'Assemble JAR' #Invoke gradle presintalled in the VM
+      run: |
+        ./gradlew assemble
+        
+    - name: 'Get Version Number' # grabbing app version
+      run: |
+        echo "::set-env name=VERSION::$(./gradlew properties -q | grep "version:" | awk '{print $2}')"
+    
+    - name: 'Publish JAR'
+      uses: actions/upload-artifact@v2-preview
+      with:
+        name: ‘indentmanager${{env.VERSION}}.jar'
+        path: output/*-all.jar
+
