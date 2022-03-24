@@ -36,5 +36,5 @@ jobs:
       uses: actions/upload-artifact@v2-preview
       with:
         name: ‘indentmanager.jar'
-        path: output/*-all.jar
+        path: output/
 
