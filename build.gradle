@@ -13,7 +13,7 @@ dependencies {
     testImplementation 'org.testng:testng:7.5'
 }
 
-wrapper() { gradleVersion = '7.3' }
+task wrapper(type: Wrapper) { gradleVersion = '7.3' }
 
 test {
     useTestNG()
