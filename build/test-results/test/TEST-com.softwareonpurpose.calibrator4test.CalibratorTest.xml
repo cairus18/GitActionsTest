@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.softwareonpurpose.calibrator4test.CalibratorTest" tests="14" skipped="0" failures="0" errors="0" timestamp="2022-03-24T21:52:22" hostname="Carloss-MacBook-Pro.local" time="5.375">
+  <properties/>
+  <testcase name="actualNull" classname="com.softwareonpurpose.calibrator4test.CalibratorTest" time="5.359"/>
+  <testcase name="bothNull" classname="com.softwareonpurpose.calibrator4test.CalibratorTest" time="0.0"/>
+  <testcase name="expectedNull" classname="com.softwareonpurpose.calibrator4test.CalibratorTest" time="0.0"/>
+  <testcase name="nodeCalibrator_fail" classname="com.softwareonpurpose.calibrator4test.CalibratorTest" time="0.001"/>
+  <testcase name="nodeCalibrator_pass" classname="com.softwareonpurpose.calibrator4test.CalibratorTest" time="0.0"/>
+  <testcase name="parentChildCalibrators_bothFail" classname="com.softwareonpurpose.calibrator4test.CalibratorTest" time="0.001"/>
+  <testcase name="parentChildCalibrators_childFail" classname="com.softwareonpurpose.calibrator4test.CalibratorTest" time="0.002"/>
+  <testcase name="parentChildCalibrators_pass" classname="com.softwareonpurpose.calibrator4test.CalibratorTest" time="0.001"/>
+  <testcase name="parentChildCalibrators_rootFail" classname="com.softwareonpurpose.calibrator4test.CalibratorTest" time="0.001"/>
+  <testcase name="parentGrandchildCalibrators_pass" classname="com.softwareonpurpose.calibrator4test.CalibratorTest" time="0.001"/>
+  <testcase name="verificationCountParentGrandchild" classname="com.softwareonpurpose.calibrator4test.CalibratorTest" time="0.001"/>
+  <testcase name="verificationCountPreCalibration" classname="com.softwareonpurpose.calibrator4test.CalibratorTest" time="0.0"/>
+  <testcase name="verificationCountSingleCalibrationPass" classname="com.softwareonpurpose.calibrator4test.CalibratorTest" time="0.001"/>
+  <testcase name="verificationCountSingleVerificationFailure" classname="com.softwareonpurpose.calibrator4test.CalibratorTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

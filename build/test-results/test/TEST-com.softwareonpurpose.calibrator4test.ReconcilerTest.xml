@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.softwareonpurpose.calibrator4test.ReconcilerTest" tests="23" skipped="0" failures="0" errors="0" timestamp="2022-03-24T21:52:28" hostname="Carloss-MacBook-Pro.local" time="0.014">
+  <properties/>
+  <testcase name="equalFalseBooleans" classname="com.softwareonpurpose.calibrator4test.ReconcilerTest" time="0.0"/>
+  <testcase name="equalIntegers" classname="com.softwareonpurpose.calibrator4test.ReconcilerTest" time="0.0"/>
+  <testcase name="equalLongs" classname="com.softwareonpurpose.calibrator4test.ReconcilerTest" time="0.0"/>
+  <testcase name="equalStringLists" classname="com.softwareonpurpose.calibrator4test.ReconcilerTest" time="0.0"/>
+  <testcase name="equalStrings" classname="com.softwareonpurpose.calibrator4test.ReconcilerTest" time="0.0"/>
+  <testcase name="equalTrueBooleans" classname="com.softwareonpurpose.calibrator4test.ReconcilerTest" time="0.0"/>
+  <testcase name="missingActualBoolean" classname="com.softwareonpurpose.calibrator4test.ReconcilerTest" time="0.001"/>
+  <testcase name="missingActualInteger" classname="com.softwareonpurpose.calibrator4test.ReconcilerTest" time="0.001"/>
+  <testcase name="missingActualLong" classname="com.softwareonpurpose.calibrator4test.ReconcilerTest" time="0.0"/>
+  <testcase name="missingActualString" classname="com.softwareonpurpose.calibrator4test.ReconcilerTest" time="0.0"/>
+  <testcase name="missingActualStringList" classname="com.softwareonpurpose.calibrator4test.ReconcilerTest" time="0.0"/>
+  <testcase name="missingExpectedBoolean" classname="com.softwareonpurpose.calibrator4test.ReconcilerTest" time="0.001"/>
+  <testcase name="missingExpectedInteger" classname="com.softwareonpurpose.calibrator4test.ReconcilerTest" time="0.0"/>
+  <testcase name="missingExpectedLong" classname="com.softwareonpurpose.calibrator4test.ReconcilerTest" time="0.001"/>
+  <testcase name="missingExpectedString" classname="com.softwareonpurpose.calibrator4test.ReconcilerTest" time="0.0"/>
+  <testcase name="missingExpectedStringList" classname="com.softwareonpurpose.calibrator4test.ReconcilerTest" time="0.0"/>
+  <testcase name="stringListContentDiffers" classname="com.softwareonpurpose.calibrator4test.ReconcilerTest" time="0.0"/>
+  <testcase name="stringListContentOrderDiffers" classname="com.softwareonpurpose.calibrator4test.ReconcilerTest" time="0.0"/>
+  <testcase name="twoNullBooleans" classname="com.softwareonpurpose.calibrator4test.ReconcilerTest" time="0.0"/>
+  <testcase name="unequalBooleans" classname="com.softwareonpurpose.calibrator4test.ReconcilerTest" time="0.001"/>
+  <testcase name="unequalIntegers" classname="com.softwareonpurpose.calibrator4test.ReconcilerTest" time="0.0"/>
+  <testcase name="unequalLongs" classname="com.softwareonpurpose.calibrator4test.ReconcilerTest" time="0.001"/>
+  <testcase name="unequalStrings" classname="com.softwareonpurpose.calibrator4test.ReconcilerTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

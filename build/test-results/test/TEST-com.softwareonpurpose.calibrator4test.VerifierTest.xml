@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.softwareonpurpose.calibrator4test.VerifierTest" tests="22" skipped="0" failures="0" errors="0" timestamp="2022-03-24T21:52:28" hostname="Carloss-MacBook-Pro.local" time="0.025">
+  <properties/>
+  <testcase name="booleanDiscrepancy" classname="com.softwareonpurpose.calibrator4test.VerifierTest" time="0.0"/>
+  <testcase name="integerDiscrepancy" classname="com.softwareonpurpose.calibrator4test.VerifierTest" time="0.0"/>
+  <testcase name="longDiscrepancy" classname="com.softwareonpurpose.calibrator4test.VerifierTest" time="0.001"/>
+  <testcase name="nullActualBoolean" classname="com.softwareonpurpose.calibrator4test.VerifierTest" time="0.0"/>
+  <testcase name="nullActualInteger" classname="com.softwareonpurpose.calibrator4test.VerifierTest" time="0.0"/>
+  <testcase name="nullActualLong" classname="com.softwareonpurpose.calibrator4test.VerifierTest" time="0.001"/>
+  <testcase name="nullActualString" classname="com.softwareonpurpose.calibrator4test.VerifierTest" time="0.0"/>
+  <testcase name="nullActualStringList" classname="com.softwareonpurpose.calibrator4test.VerifierTest" time="0.0"/>
+  <testcase name="nullBooleanBoolean" classname="com.softwareonpurpose.calibrator4test.VerifierTest" time="0.001"/>
+  <testcase name="nullExpectedInteger" classname="com.softwareonpurpose.calibrator4test.VerifierTest" time="0.0"/>
+  <testcase name="nullExpectedLong" classname="com.softwareonpurpose.calibrator4test.VerifierTest" time="0.0"/>
+  <testcase name="nullExpectedString" classname="com.softwareonpurpose.calibrator4test.VerifierTest" time="0.0"/>
+  <testcase name="nullExpectedStringList" classname="com.softwareonpurpose.calibrator4test.VerifierTest" time="0.001"/>
+  <testcase name="sameBooleanValue" classname="com.softwareonpurpose.calibrator4test.VerifierTest" time="0.0"/>
+  <testcase name="sameIntegerValue" classname="com.softwareonpurpose.calibrator4test.VerifierTest" time="0.001"/>
+  <testcase name="sameLongValue" classname="com.softwareonpurpose.calibrator4test.VerifierTest" time="0.0"/>
+  <testcase name="sameStringList" classname="com.softwareonpurpose.calibrator4test.VerifierTest" time="0.004"/>
+  <testcase name="sameStringValue" classname="com.softwareonpurpose.calibrator4test.VerifierTest" time="0.0"/>
+  <testcase name="stringDiscrepancy" classname="com.softwareonpurpose.calibrator4test.VerifierTest" time="0.0"/>
+  <testcase name="stringListDifferentOrder" classname="com.softwareonpurpose.calibrator4test.VerifierTest" time="0.0"/>
+  <testcase name="stringListDifferentSize" classname="com.softwareonpurpose.calibrator4test.VerifierTest" time="0.001"/>
+  <testcase name="stringListDifferentValues" classname="com.softwareonpurpose.calibrator4test.VerifierTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
